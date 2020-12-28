@@ -1,7 +1,9 @@
+import Layout from '../components/Layout'
+
 const Index = () => (
-    <div>
-        <h1>My nextjs website homepage</h1>
-    </div>
+    <Layout title="Home">
+        <p>My portfolio :)</p>
+    </Layout>
 )
 
 export default Index;

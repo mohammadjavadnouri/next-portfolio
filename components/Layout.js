@@ -6,7 +6,6 @@ import Nprogress from 'nprogress';
 Router.onRouteChangeStart = url => {
     Nprogress.start()
 }
-
 Router.onRouteChangeComplete = () => Nprogress.done();
 Router.onRouteChangeError = () => Nprogress.done();
 
@@ -26,6 +25,7 @@ const Layout = ({children, title}) => (
             <Link href="/"><a>Go home</a></Link>
             <Link href="/about"><a>About</a></Link>
             <Link href="/contacts"><a>Contacts</a></Link>
+            <Link href="/blog"><a>Blog</a></Link>
         </header> 
 
         <h1>{title}</h1>
